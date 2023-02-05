@@ -155,7 +155,7 @@ function Bot() {
     }
 
     let nameAsk = [
-      "What's your name|what's your name|What is your name|what is your name",
+      "What's your name|what's your name|What is your name|what is your name|who are you",
     ];
     let words8 = new RegExp(nameAsk);
     if (words8.test(document.querySelector("#input").value)) {
@@ -173,20 +173,20 @@ function Bot() {
     if (words9.test(document.querySelector("#input").value)) {
       getBotMessage.innerText = "Typing...";
       setTimeout(() => {
-        getBotMessage.innerText = "The owner of this bot is Treasure";
+        getBotMessage.innerText = "The owner of this bot is SUNS";
         inputRef.value = ""; // clear the input
       }, 2000);
     }
 
     let owner2 = [
-      "Who's Treasure|who's Treasure|Who is Treasure|who is Treasure",
+      "Who's SUNS|who's SUNS|Who is SUNS|who is SUNS",
     ];
     let words10 = new RegExp(owner2);
     if (words10.test(document.querySelector("#input").value)) {
       getBotMessage.innerText = "Typing...";
       setTimeout(() => {
         getBotMessage.innerText =
-          "Treasure is a programmer based on ReactJS and NodeJS he is the owner of a youtube channel called Creative Tutorials";
+          "SUNS is a group of programmers";
         inputRef.value = ""; // clear the input
       }, 2000);
     }
