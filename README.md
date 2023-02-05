@@ -1,3 +1,6 @@
 # Famify - A Chatbot for teens inside the fampay app
-## Components - Chatbot, Quiz (gamifying learning), And Daily Bytes
-## Frontend in - 'frontend' branch
+Problem Track - Fampay Track 2
+
+## Components - Chatbot, Quiz (gamifying learning), And Daily Bytes.
+
+Built with - react, charkra UI, gpt-3 api, python, firebase.
