@@ -21,7 +21,7 @@ import BlogCard from "../components/BlogCard";
 import axios, {Axios} from "axios";
 import { useState } from "react";
 
-API_KEY = ${API_KEY_NEWS}
+API_KEY = ${API_KEY_NEWS};
 
 // import API_KEY from "../apiKey";
 
