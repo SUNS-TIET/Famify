@@ -31,7 +31,7 @@ of daily bytes = In the world of financial wisdom, let us help you
 navigate the complexities of money management with our daily byte-sized 
 financial advice.
 
-![alt text](https://github.com/Famify/blob/main/Images/Daily-Bytes.jpeg?raw=true)
+![alt text](https://github.com/Famify/blob/main/Images/Daily-Bytes.png?raw=true)
 
 
 Games and Quizzes with Famcoins as Reward -  inside the chatbot
