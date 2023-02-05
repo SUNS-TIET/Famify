@@ -4,6 +4,7 @@ Problem Track - Fampay Track 2
 ### NOTE - The deployed website doesn't work properly. We are working on fixing it.
 
 ### Components - Chatbot, Quiz (gamifying learning), And Daily Bytes.
+Ultimately this will be 
 
 The problem Famify solves
 Problem - 1. The issue of financial literacy
@@ -21,15 +22,14 @@ HOW DID WE DO IT? -
 
 
 
-AI chatbot used inside the FamPay App using GPT-3. To 
-ask questions about financial literacy, = Get expert financial guidance 
+AI chatbot used inside the FamPay App using GPT-3 (see GPT-3 branch). To ask questions about financial literacy, = Get expert financial guidance 
 anytime, anywhere with our smart and friendly chatbot. Let's get started
  on securing your financial future together.
 
 
 
 
-Live Financial News & Updates - in form 
+Live Financial News & Updates (see frontend branch) - in form 
 of daily bytes = In the world of financial wisdom, let us help you 
 navigate the complexities of money management with our daily byte-sized 
 financial advice.
