@@ -246,7 +246,8 @@ function Bot() {
               </div>
               <div className="btn">
                 <button onClick={handleInput}>
-                  <i className="fas fa-paper-plane"></i>Send
+                  <i className="fas fa-paper-plane"></i>
+                  <div className="send">Send</div>
                 </button>
               </div>
             </div>
