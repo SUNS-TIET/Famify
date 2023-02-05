@@ -8,10 +8,8 @@ import {
   Button, 
   Checkbox 
 } from '@chakra-ui/react'
-import { Form } from 'react-router-dom'
 
-import ChatBot from 'react-simple-chatbot';
-import Bot from "../chatbot/Bot"
+import Bot from "../chatbot/Bot2.jsx"
 
 export default function Fambot() {
   const steps = [
