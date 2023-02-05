@@ -21,10 +21,11 @@ import BlogCard from "../components/BlogCard";
 import axios, {Axios} from "axios";
 import { useState } from "react";
 
-let API_KEY;
+// let API_KEY;
 
-API_KEY = process.env.REACT_APP_API_KEY_NEWS ;
-console.log(API_KEY)
+const API_KEY = "f6e81aa4433d44a6beb25df60ce95998";
+// API_KEY = process.env.REACT_APP_API_KEY_NEWS ;
+// console.log(API_KEY)
 
 // import API_KEY from "../apiKey";
 
