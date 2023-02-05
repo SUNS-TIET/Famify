@@ -1,6 +1,8 @@
 # Famify - extending the Fampay App's Features
 Problem Track - Fampay Track 2
 
+### NOTE - The deployed website doesn't work properly. We are working on fixing it.
+
 ### Components - Chatbot, Quiz (gamifying learning), And Daily Bytes.
 
 The problem Famify solves
