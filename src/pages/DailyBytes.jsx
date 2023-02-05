@@ -24,6 +24,7 @@ import { useState } from "react";
 let API_KEY;
 
 API_KEY = process.env.REACT_APP_API_KEY_NEWS ;
+console.log(API_KEY)
 
 // import API_KEY from "../apiKey";
 
