@@ -1,12 +1,15 @@
 import { Box, Button, Image, SimpleGrid, useToast } from "@chakra-ui/react"
 import { LockIcon } from "@chakra-ui/icons"
+import Login from "../components/Login"
 
 export default function Profile() {
   const toast = useToast();
   return (
     <SimpleGrid columns={2} spacing={10} minChildWidth={360}>
+    
       <Box display="flex" justifyContent="center" m="auto">
-        <Button
+      <Login/>
+        {/* <Button
           bg="#df6005"
           color="white"
           onClick={() => toast({
@@ -17,7 +20,7 @@ export default function Profile() {
             position: 'top',
             status: 'success',
             icon: <LockIcon/>
-          })}>Login</Button>
+          })}>Login</Button> */}
       </Box>
       <Box maxH="360px">
         <Image

@@ -42,7 +42,6 @@ function Bot() {
   const [dateTime, setDateTime] = useState(
     `${days[day]}, ${months[month]} ${year}`
   ); //using the useState hook to get the data from the local date and set it to the dateTime variable
-	const [ans, setAns] = useState("");
 
   const checkStatus = (e) => {
     let isActive = true;
@@ -76,16 +75,15 @@ function Bot() {
 		
     axios.get(gpt,{crossdomain: true}).then((res)=>{
       var st = res.data.response;
-      const ft = st.substring(0,30);
-      console.log(ft);
-			setAns(ft);
+      const ans = st.substring(1,250);
       console.log(ans);
+			setTimeout(() => {
+        getBotMessage.innerText = ans; 
+        inputRef.value = ""; // clear the input
+      }, 2000);
 		});
 
-    setTimeout(() => {
-      getBotMessage.innerText = ans; 
-      inputRef.value = ""; // clear the input
-    }, 2000);
+    
 
     getHumanMessage.innerText = inputRef.value; // display the message
   };
