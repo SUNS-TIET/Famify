@@ -1,4 +1,4 @@
-# Famify - extending the Fampay App's Features
+# Famify
 Problem Track - Fampay Track 2
 
 ### NOTE - The deployed website doesn't work properly. We are working on fixing it.
