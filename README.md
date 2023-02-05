@@ -1,4 +1,4 @@
-# Famify - xtending the Fampay App's Features
+# Famify - extending the Fampay App's Features
 Problem Track - Fampay Track 2
 
 ### Components - Chatbot, Quiz (gamifying learning), And Daily Bytes.
