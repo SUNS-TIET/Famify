@@ -21,9 +21,8 @@ import BlogCard from "../components/BlogCard";
 import axios, {Axios} from "axios";
 import { useState } from "react";
 
-// API_KEY = process.env.REACT_APP_API_KEY_NEWS ;
-
-import API_KEY from "../apiKey";
+let API_KEY;
+API_KEY = process.env.REACT_APP_API_KEY_NEWS ;
 
 export default function Blog() {
   
