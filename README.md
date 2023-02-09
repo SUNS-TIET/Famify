@@ -37,4 +37,4 @@ financial advice.
 Games and Quizzes with Famcoins as Reward -  inside the chatbot
 
 
-## Built with - react, charkra UI, gpt-3 api, python, firebase.
+## Built with - react, charkra UI, fine-tuned gpt-3 model, python, firebase.
