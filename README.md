@@ -19,7 +19,7 @@ simple and efficient solution to this track by integrating various ideas
 
 ## How did we do it?
 
-AI chatbot used inside the FamPay App using GPT-3 (see GPT-3 branch). Fine-tuned to answer financial questions.
+AI chatbot used inside the FamPay App using GPT-3. Fine-tuned model made to answer financial questions.
 To ask questions about financial literacy, = Get expert financial guidance 
 anytime, anywhere with our smart and friendly chatbot. Let's get started on securing your financial future together.
 
